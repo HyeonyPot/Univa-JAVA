@@ -4,13 +4,13 @@ public class Ngugudan {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-		int[] Ndan = new int[9];
+		int[] Ndan = new int[10];
 		int i;
-		System.out.println("ÃÖ´ë 10°³ÀÇ ±¸±¸´ÜÀ» Ãâ·Â°¡´ÉÇÕ´Ï´Ù.");
-		System.out.println("¸î°³ÀÇ ±¸±¸´ÜÀ» Ãâ·ÂÇÒ±î¿ä?");
+		System.out.println("ìµœëŒ€ 10ê°œì˜ êµ¬êµ¬ë‹¨ì„ ì¶œë ¥ê°€ëŠ¥í•©ë‹ˆë‹¤.");
+		System.out.println("ëª‡ê°œì˜ êµ¬êµ¬ë‹¨ì„ ì¶œë ¥í• ê¹Œìš”?");
 		i=in.nextInt();
-		System.out.println(i+"°³ÀÇ ±¸±¸´ÜÀ» Ãâ·ÂÇÕ´Ï´Ù.");
-		System.out.println("Ãâ·ÂÇÒ ±¸±¸´ÜÀ» ÀÔ·ÂÇØÁÖ¼¼¿ä.");
+		System.out.println(i+"ê°œì˜ êµ¬êµ¬ë‹¨ì„ ì¶œë ¥í•©ë‹ˆë‹¤.");
+		System.out.println("ì¶œë ¥í•  êµ¬êµ¬ë‹¨ì„ ì…ë ¥í•´ì£¼ì„¸ìš”.");
 		for(int j=0;j<i;j++) {
 			Ndan[j]=in.nextInt();			
 		}
@@ -20,7 +20,7 @@ public class Ngugudan {
 		
 	}
 	public static void gugudan(int dan){
-		System.out.println(dan+"´ÜÀ» Ãâ·ÂÇÕ´Ï´Ù.");
+		System.out.println(dan+"ë‹¨ì„ ì¶œë ¥í•©ë‹ˆë‹¤.");
 		if(dan<=9)
 		for(int i=1;i<9+1;i++)
 			System.out.println(dan+" * "+i +" = "+ i*dan);
