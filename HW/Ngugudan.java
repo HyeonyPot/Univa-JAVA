@@ -5,7 +5,6 @@ public class Ngugudan {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in = new Scanner(System.in);
-		Scanner ask = new Scanner(System.in);
 		int[] Ndan = new int[10];
 		int i;
 		String askq;
@@ -26,7 +25,7 @@ public class Ngugudan {
 		gugudan(Ndan[m]);
 		
 		System.out.println("다시 입력하시겠습니까?(Y/N)");
-		askq = ask.nextLine();
+		askq = in.nextLine();
 		q=askq.charAt(0);
 		if (q == 'y' || q == 'Y')
 		continue;
