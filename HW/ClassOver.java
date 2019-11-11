@@ -1,8 +1,5 @@
 package ClassOverEtc;
 
-import ClassOverEtc.ClassOverEtc;
-
-
 public class ClassOver {
 
   public static void main(String[] args) {
@@ -15,4 +12,3 @@ public class ClassOver {
    ClassOverEtc c7 = new ClassOverEtc(11,22,33,"예제1","예제2","예제3");
   }
 
-}
