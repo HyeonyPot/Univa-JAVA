@@ -5,21 +5,26 @@ public class bigNumber {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		System.out.println("3개의 정수를 입력하세요.");
-		int a = scan.nextInt();
-		int b = scan.nextInt();
-		int c = scan.nextInt();
+		int first = scan.nextInt();
+		int second = scan.nextInt();
+		int third = scan.nextInt();
 		int temp;
-		if(a>b && b>c){
-			
-			
-			
+		if(first<second && second<third){
+			temp=first;
+			first=third;
+			third=temp;		
 		}
-		else if() {
-			
+		else if(third > second && third > first) {
+			temp=first;
+			first=third;
+			third=temp;
 		}
-		if() {
-			
+		if(third>second) {
+			temp=second;
+			second=third;
+			third=temp;
 		}
+		System.out.println(first+" "+second+" "+third);
 	}
 
 }
